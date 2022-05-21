@@ -1,0 +1,19 @@
+.container {}
+
+.userAvatar {
+    border-radius: 100%;
+    width: 100%;
+}
+.container > h2 {
+    margin: 29px 0 12px 0;
+}
+.nickname {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.follow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}

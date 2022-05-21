@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    background-color: var(--main-background);
+    padding: 28px 56px;
+  }

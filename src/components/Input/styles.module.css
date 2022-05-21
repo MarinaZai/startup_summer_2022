@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  min-width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  background-image: url(../../assets/icons/InputIcon.svg);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: left 19px center;
+  padding-left: 44px;
+  box-sizing: border-box;
+}
