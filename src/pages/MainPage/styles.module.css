@@ -1,5 +1,19 @@
 .container {
-    display: flex;
-    background-color: var(--main-background);
-    padding: 28px 56px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+  box-sizing: border-box;
+  background-color: var(--main-background);
+  height: 100%;
+  padding: 28px 56px;
+}
+
+.emptyPage {
+  align-self: center;
+  flex: 1;
+}
+@media (max-width: 365px) {
+  .container {
+    padding: 28px 28px;
   }
+}

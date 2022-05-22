@@ -16,7 +16,8 @@ code {
   --primary-color: #0064EB;
   --main-background: #E5E5E5;
   --text-color: #000000;
-  --secondary-text-color: 808080;
+  --secondary-background: #FFFFFF; 
+  --secondary-text-color: #808080;
   --header-height: 72px;
   --xxs-size: 14px;
   --xs-size: 16px;

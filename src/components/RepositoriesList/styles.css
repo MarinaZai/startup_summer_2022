@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  gap: 12px;
+  margin-right: 22px;
+  padding: 0;
+}
+
+.page-item.active {
+  background-color: var(--primary-color);
+  border-radius: 3px;
+  padding: 2px 6px;
+  color: var(--secondary-background);
+}
+
+.page-item,
+.previous-button,
+.next-button {
+  font-weight: var(--normal);
+  font-size: var(--xxs-size);
+  line-height: 21px;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 2px 6px;
+  color: var(--secondary-text-color);
+}
+
+.previous-button:not(.disabled),
+.next-button:not(.disabled) {
+  color: var(--primary-color);
+}

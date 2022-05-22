@@ -4,8 +4,6 @@ import { Follow } from "../Follow";
 import FollowersIcon from "../../assets/icons/FollowersIcon.svg";
 import FollowingIcon from "../../assets/icons/FollowingIcon.svg";
 
-
-
 export const Profile = (props) => {
   return (
     <div className={styles.container}>
@@ -14,10 +12,10 @@ export const Profile = (props) => {
       <a
         className={styles.nickname}
         rel="noreferrer"
-        href="https://google.com"
+        href={props.htmlUrl}
         target="_blank"
       >
-       {props.nickname}
+        {props.nickname}
       </a>
       <div className={styles.follow}>
         <Follow icon={FollowersIcon} text={`${props.followers} followers`} />

@@ -1,0 +1,21 @@
+.repositoriesWrapper {
+  flex: 1;
+}
+
+.repositoriesWrapper > h1 {
+  margin-bottom: 29px;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pageList {
+  font-weight: var(--normal);
+  font-size: var(--xxs-size);
+  line-height: 21px;
+  color: var(--secondary-text-color);
+}
