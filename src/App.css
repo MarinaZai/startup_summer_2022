@@ -1,6 +1,8 @@
 .app-wrapper {
   max-width: 1366px;
   margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--main-background);
 }
 
 h1 {
